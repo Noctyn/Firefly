@@ -467,6 +467,8 @@ import { TabGroup } from "@/components/firefly-mdx";
 ````
 
 :::tip
+
 - `labels` 数组给每个代码块声明标签，顺序一一对应
 - 组件用 `client:load` 激活标签切换
+
 :::
