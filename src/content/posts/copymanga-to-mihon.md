@@ -6,6 +6,7 @@ description: 将拷贝漫画（CopyManga）的书架订阅和阅读历史导出�
 tags: [Mihon, Tachiyomi, 拷贝漫画, CopyManga, 漫画]
 category: 实用工具
 slug: copymanga-to-mihon
+image: https://i0.hdslb.com/bfs/new_dyn/c3b98b654a4479928ee845a6cee262993691012253813604.jpg
 ---
 
 ## 背景
