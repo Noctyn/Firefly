@@ -1,25 +1,50 @@
 # 关于我 / About Me
 
-你好！我是 **Velmira**。
+你好！我是 **Velmira**。欢迎来到我的个人小站 🍀
 
-## 🛠️ 关于本站
-
-这个网站使用 **Astro** 框架构建，采用了 [Firefly](https://github.com/CuteLeaf/Firefly) 模板，Firefly 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发。
-
-**Firefly** 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。
-
-**🖥️在线预览： [Firefly - Demo site](https://firefly.cuteleaf.cn/)**
-
-**📝Firefly使用文档： [https://docs-firefly.cuteleaf.cn](https://docs-firefly.cuteleaf.cn/)**
-
-**⭐Firefly开源地址：[https://github.com/CuteLeaf/Firefly](https://github.com/CuteLeaf/Firefly)**
-
-**⭐Fuwari开源地址：[https://github.com/saicaca/fuwari](https://github.com/saicaca/fuwari)**
-
-::github{repo="CuteLeaf/Firefly"}
-
-::github{repo="saicaca/fuwari"}
+这里主要记录我的技术实践、开源工具、日常见闻与心得体会。
 
 ---
 
-*感谢你的来访！希望在这里能找到对你有用的内容！*
+## 🚀 开源项目 / Projects
+
+平时写的一些开源与自用小工具：
+
+:::github{repo="Noctyn/copy2mihon"}
+
+- **[copy2mihon](https://github.com/Noctyn/copy2mihon)**：将拷贝漫画（CopyManga）的书架收藏与阅读历史导出或合并为 Mihon / Tachiyomi 兼容的 `.tachibk` 备份文件，支持双向智能合并与增量同步。
+
+:::github{repo="Noctyn/claude2qwen"}
+
+- **[claude2qwen](https://github.com/Noctyn/claude2qwen)**：将 Claude 导出的聊天记录（ZIP 压缩包或 conversations.json）转换为 Qwen Studio 兼容的导入格式。
+
+---
+
+## 🎮 兴趣与日常 / Interests
+
+- **技术折腾**：Python、自动化脚本、Web 开发、效率工具
+- **ACGN / 二次元**：动画看番、漫画阅读
+  - 番组计划：[Bangumi @Nostro](https://bangumi.pro/user/654858)（也可在站内查看 [番组计划](/bangumi/)）
+  - 哔哩哔哩：[UID 40766521](https://space.bilibili.com/40766521)
+
+---
+
+## 🛠️ 关于本站 / About This Site
+
+- **框架**：[Astro](https://astro.build/)
+- **主题**：基于 [Firefly](https://github.com/CuteLeaf/Firefly)（二次开发自 [Fuwari](https://github.com/saicaca/fuwari)）
+- **托管平台**：[Netlify](https://www.netlify.com/)
+- **评论系统**：[Twikoo](https://twikoo.js.org/)（部署于 Netlify 云函数 + MongoDB Atlas）
+- **统计分析**：Google Analytics & Microsoft Clarity
+
+---
+
+## 📬 找到我 / Connect
+
+- **GitHub**：[@Noctyn](https://github.com/Noctyn)
+- **邮箱**：[rectal-spool-blade@duck.com](mailto:rectal-spool-blade@duck.com)
+- **RSS 订阅**：[点击订阅](/rss/)
+
+---
+
+*感谢你的来访！希望这里的内容能对你有所帮助与启发 ✨*

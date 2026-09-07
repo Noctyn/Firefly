@@ -5,6 +5,18 @@
 		"avatarUrl": "https://avatars.githubusercontent.com/u/43440669?v=4",
 		"license": "MIT"
 	},
+	"noctyn/claude2qwen": {
+		"description": "将 Claude 导出的聊天记录（ZIP 压缩包或 conversations.json）转换为 Qwen Studio 兼容的导入格式。",
+		"language": "Python",
+		"avatarUrl": "https://avatars.githubusercontent.com/u/52833229?v=4",
+		"license": null
+	},
+	"noctyn/copy2mihon": {
+		"description": "导出拷贝漫画 (CopyManga) 书架订阅与阅读历史至 Mihon / Tachiyomi 备份 (.tachibk)，支持双向智能合并与增量同步。",
+		"language": "Python",
+		"avatarUrl": "https://avatars.githubusercontent.com/u/52833229?v=4",
+		"license": "MIT"
+	},
 	"saicaca/fuwari": {
 		"description": "✨A static blog template built with Astro. ",
 		"language": "Astro",
