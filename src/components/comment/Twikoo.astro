@@ -55,6 +55,32 @@ const config = {
           .init(dynamicConfig)
           .then(() => {
             console.log("[Twikoo] Init complete");
+            // Twikoo 官方源码为防止本地调试刷访问量，在 localhost 下跳过了 updateVisitorsCount
+            // 这里在本地调试环境下补充获取已有浏览量，避免前端一直卡在“加载中...”
+            const LOCALHOST_HOSTNAMES = new Set(["localhost", "127.0.0.1", "0.0.0.0", "::1"]);
+            if (LOCALHOST_HOSTNAMES.has(window.location.hostname)) {
+              const counterEl = document.getElementById("twikoo_visitors");
+              if (counterEl && dynamicConfig.visitorCount && dynamicConfig.envId) {
+                fetch(dynamicConfig.envId, {
+                  method: "POST",
+                  headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify({
+                    event: "COUNTER_GET",
+                    url: dynamicConfig.path,
+                  }),
+                })
+                  .then((res) => res.json())
+                  .then((data) => {
+                    const count = data?.time ?? data?.data?.time;
+                    if (typeof count === "number") {
+                      counterEl.textContent = String(count);
+                    }
+                  })
+                  .catch((err) => {
+                    console.warn("[Twikoo] Localhost visitor count fetch error:", err);
+                  });
+              }
+            }
           })
           .catch((error) => {
             console.error("[Twikoo] Init failed:", error);
